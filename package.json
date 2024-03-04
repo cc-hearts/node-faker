@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "npx nodemon",
     "build": "rollup -c",
-    "build:start": "node app.js",
+    "build:start": "node dist/app.js",
     "format": "prettier --write .",
     "prepare": "husky install"
   },
